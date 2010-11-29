@@ -1,6 +1,5 @@
 -module(fib).
 -export([fib/1]).
--import(lists, [map/2]).
 
 fib(1) -> 1;
 fib(2) -> 1;
